@@ -1,0 +1,17 @@
+# Validation configuration
+sheet_name: "Company Financial Input"
+expected_company_name: "EURO-SCAN EXPORTS (PRIVATE) LIMITED"
+audit_type_row: 14  # Row number (1-based) containing audit type information
+year_row: 10     # Row number (1-based) containing the actual years (e.g., 2020, 2021, 2022...)
+
+# Rows to validate
+row_validations:
+  - row: 16
+    expected_name: "Gross Sales Less Return"
+  - row: 17
+    expected_name: "Less: Cost of Goods Sold"
+
+# Additional validation settings
+validation_settings:
+  check_column_continuity: true
+  min_required_years: 3
