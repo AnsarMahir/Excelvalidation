@@ -1,10 +1,10 @@
 # Validation configuration
 sheet_name: "Company Financial Input"
 expected_company_name: "EURO-SCAN EXPORTS (PRIVATE) LIMITED"
-audit_type_row: 14  # Row number (1-based) containing audit type information
+Type_of_accounts_row: 14  # Row number (1-based) containing audit type information
 year_row: 10     # Row number (1-based) containing the actual years (e.g., 2020, 2021, 2022...)
 
-# Rows to validate
+# Rows to validate (Row number must be entered in 1-based)
 row_validations:
   - row: 16
     expected_name: "Gross Sales Less Return"

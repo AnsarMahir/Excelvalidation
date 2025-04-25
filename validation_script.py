@@ -132,7 +132,7 @@ class ExcelValidator:
     
     def _validate_has_audited_values(self):
         """Check if at least one 'Audited' value exists in specified row"""
-        audit_row = self.config.get("audit_type_row")
+        audit_row = self.config.get("Type_of_accounts_row")
         if not audit_row:
             self._add_warning("No audit type row specified in configuration")
             return
