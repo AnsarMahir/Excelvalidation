@@ -30,7 +30,7 @@ This tool validates Excel spreadsheets containing financial data against a set o
 
 ```bash
 # Clone the repository or download the script
-git clone https://github.com/yourusername/financial-data-validator.git
+git clone https://github.com/AnsarMahir/Excelvalidation.git
 
 # Install dependencies
 pip install pandas pyyaml openpyxl xlrd
